@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.SWhead{
+    height: 400px;
+    width: 1005;
+    background-image: url('../../img/SocialWelfare/charity.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.SWheading {
+    text-align: center;
+    b{
+        color: white;
+    }
+
+}
+
+ .SWpara{
+    font-size: 30px;
+    text-align: center;
+    b{
+        color: white;
+    }
+}
+
+.banner a
+{
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+  top: 3.5rem;
+  font-size: 1em;
+  background: #111;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.SWhead a:hover
+{
+  letter-spacing: 6px;
+}
+
+.A{
+    background-image: url('../../img/SocialWelfare/charity1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.B{
+    background-image: url('../../img/SocialWelfare/charity2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.C{
+    background-image: url('../../img/SocialWelfare/charity3.jpg');
+    background-position: center;
+}
+.D{
+    background-image: url('../../img/SocialWelfare/charity4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.charity{
+    margin: 10% auto;
+    text-align: center;
+}
+.donate{
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
+#button{
+    text-align: center;
+}
+
+/*delivery */
+.loader {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .truckWrapper {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: hidden;
+  }
+  /* truck upper body */
+  .truckBody {
+    width: 130px;
+    height: fit-content;
+    margin-bottom: 6px;
+    animation: motion 1s linear infinite;
+  }
+  /* truck suspension animation*/
+  @keyframes motion {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(3px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  /* truck's tires */
+  .truckTires {
+    width: 130px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 15px;
+    position: absolute;
+    bottom: 0;
+  }
+  .truckTires svg {
+    width: 24px;
+  }
+  
+  .road {
+    width: 100%;
+    height: 1.5px;
+    background-color: #282828;
+    position: relative;
+    bottom: 0;
+    align-self: flex-end;
+    border-radius: 3px;
+  }
+  .road::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: #282828;
+    right: -50%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 10px solid white;
+  }
+  .road::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: #282828;
+    right: -65%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 4px solid white;
+  }
+  
+  .lampPost {
+    position: absolute;
+    bottom: 0;
+    right: -90%;
+    height: 90px;
+    animation: roadAnimation 1.4s linear infinite;
+  }
+  
+  @keyframes roadAnimation {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-350px);
+    }
+  }

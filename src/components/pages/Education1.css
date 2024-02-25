@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.Eform{
+    background-color: yellow;
+    height: 1000px;
+}
+.Elogo{
+    text-align: center;
+    font-size: 20px;
+    b{
+        color: orange;
+    }
+}
+.EDform{
+    border: 2px solid gray;
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    top: 10rem;
+    left: 28rem;
+    background: white;
+    box-shadow: 10px 5px 5px gray;
+}
+.EDemail{
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.EDname{
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.EDphone{
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.EDselect{
+    width: 200px;
+    margin: 5px;
+}
+.checkbox{
+    margin: 8px;
+}
+.EDaddress{
+    padding: 10px;
+    width: 350px;
+    margin: 1px;
+}
+#Ecategry{
+    width: 400px;
+}
+#EDsubmit{
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}

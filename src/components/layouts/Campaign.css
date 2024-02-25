@@ -1,0 +1,42 @@
+.Campaign{
+    height: 1000px;
+}
+
+.QRcode{
+    height: 200px;
+    width: 200px;
+    background: url('../../img/Navbar/Navbar3.jpg');
+    border: 2px solid gray;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 35rem;
+    
+}
+
+.QRcod{
+    text-align: center;
+    text-decoration: underline;
+}
+
+ .Acclogo{
+    height:150px;
+    width: 400px;
+    background: url('../../img/Navbar/Navbar2.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 52rem;
+    bottom: 15rem;
+ }
+
+ .Upisupport{
+    height: 400px;
+    width: 600px;
+    background: url('../../img/Navbar/Navbar4.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 10px grey;
+    position: relative;
+    left: 22rem;
+ }

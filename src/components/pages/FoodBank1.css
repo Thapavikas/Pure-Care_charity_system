@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.Fform{
+    background-color: #06C167;
+    height: 1000px;
+}
+.Flogo{
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    b{
+        color:#06C167;
+    }
+}
+.FDform{
+    border: 2px solid gray;
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    top: 10rem;
+    left: 28rem;
+    background: white;
+    box-shadow: 10px 5px 5px gray;
+}
+.FDemail{
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.FDname{
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.FDphone{
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+}
+.FDselect{
+    width: 200px;
+    margin: 5px;
+}
+.checkbox{
+    margin: 8px;
+}
+.FDaddress{
+    padding: 10px;
+    width: 350px;
+    margin: 1px;
+}
+#Fcategry{
+    width: 400px;
+}
+#FDsubmit{
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+  
+  

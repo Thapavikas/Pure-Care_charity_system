@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  .logo{
+    font-size: 28px;
+    color:var(--navfont);
+  }
+  .Eheading{
+    text-decoration: underline red;
+    text-align: center;
+  }
+  .Elogo1{
+    width: fit-content;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    cursor: pointer;
+    color: #111;
+    font-weight: 600;
+    b{
+      color: green;
+    }
+  }
+  .para{
+    text-align: center;
+  }
+  @media only screen and (max-width:1320px){
+    .banner{
+      width: 100%;
+      height: 90vh;
+      background:no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+    }
+  }
+  
+  .Ebanner{
+    width: auto;
+    height: 300px;
+    background:url('https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+  }
+  
+  
+  .Econtent
+  {
+    padding: 20px;
+    background-color: yellow;
+    z-index: 0;
+  }
+  
+  .Econtent p
+  {
+    font-size: 1.1em;
+    color:black;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+  }
+  
+  .Ebanner a
+  {
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    top: 3.5rem;
+    font-size: 1em;
+    background: orange;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.2s;
+  }
+  
+  .Ebanner a:hover
+  {
+    letter-spacing: 6px;
+  }
+  /* photo */
+  
+  .photo{
+    padding: 20px;
+  }
+  
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 10px;
+    align-items: center;
+  }
+  .box{
+    overflow: hidden;
+    border-radius: 20px;
+    
+  }
+  .wrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.5s all  ease-in-out;
+  }
+  .wrapper img:hover{
+     transform: scale(.9);
+  
+  }

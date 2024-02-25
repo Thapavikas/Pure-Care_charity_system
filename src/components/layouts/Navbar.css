@@ -1,0 +1,23 @@
+.navbar-fixed {
+.nav-wrapper{
+    background-color: black;
+}
+
+.Design:hover{
+    color: #219ebc;
+}
+.brand-logo{
+    font-size: 15px;
+    height: 100px;
+}
+.brand-logo:hover{
+    color: grey;
+}
+.CharityLogo{
+    height: 50px;
+    width: 200px;
+    background: url('../../img/Navbar/Navbar1.png');
+    background-size: cover;
+    background-position: center;
+}
+}

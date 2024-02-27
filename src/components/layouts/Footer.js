@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../layouts/Footer.css'
-import LogoImg from '../../img/footer/Footer.jpg'
-// Need to added correct .svg file
-// Add sticky footer
-// Add IG and Contribute button
+import LogoImg from '../../img/Navbar/Navbar1.png'
 
 const Footer = () => {
   return (
@@ -68,14 +65,14 @@ const Footer = () => {
         <div class='footer-copyright'>
           <div className='container'>
             <div className='row'>
-              <div className='col'>
-                <br />© 2024 The Charity Foundation Inc. All rights reserved.
+              <div className='col s6'>
+                <br />© 2024 The Pure Care Charity Foundation Inc. All rights reserved.
               </div>
               <div className='col s6'>
                 <br />
                 <br />
                 <a
-                  className='white-text left'>
+                  className='white-text right'>
                   Powered by Vikas B and Team
                 </a>
               </div>

@@ -1,6 +1,11 @@
 .Campaign{
     height: 1000px;
 }
+/* this is account heading */
+.Accheading{
+    text-decoration:underline;
+     text-align:center;
+}
 
 .QRcode{
     height: 200px;
@@ -39,4 +44,102 @@
     box-shadow: 5px 5px 10px grey;
     position: relative;
     left: 22rem;
+ }
+
+ @media (max-width:768px) {
+    .Accheading{
+        text-decoration:underline;
+         text-align:center;
+    }
+
+    .QRcode{
+        height: 200px;
+        width: 200px;
+        background: url('../../img/Navbar/Navbar3.jpg');
+        border: 2px solid gray;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        left: 20rem;
+        
+    }
+    
+    .QRcod{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+     .Acclogo{
+        height:80px;
+        width: 150px;
+        background: url('../../img/Navbar/Navbar2.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        left: 30rem;
+        top: 12rem;
+     }
+    
+     .Upisupport{
+        height: 300px;
+        width: 400px;
+        background: url('../../img/Navbar/Navbar4.jpg');
+        background-size: cover;
+        background-position: center;
+        box-shadow: 5px 5px 10px grey;
+        position: relative;
+        left: 10rem;
+     }
+    
+ }
+
+ @media (max-width:500px) {
+    .Accheading{
+        text-decoration:underline;
+         text-align:center;
+    }
+/* this is the qr logo */
+    .QRcode{
+        height: 200px;
+        width: 200px;
+        background: url('../../img/Navbar/Navbar3.jpg');
+        border: 2px solid gray;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        left: 8rem;
+        
+    }
+    
+    .QRcod{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .Accpara{
+        padding:10px;
+        font-size: 10px;
+    }
+    /* this is the company logo */
+     .Acclogo{
+        height:60px;
+        width: 178px;
+        background: url('../../img/Navbar/Navbar2.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        left: 15rem;
+        top: 13rem;
+     }
+    /* this is the upi images */
+     .Upisupport{
+        height: 250px;
+        width: 300x;
+        background: url('../../img/Navbar/Navbar4.jpg');
+        background-size: cover;
+        background-position: center;
+        box-shadow: 5px 5px 10px grey;
+        position: relative;
+        left: 0.5rem;
+     }
+    
  }

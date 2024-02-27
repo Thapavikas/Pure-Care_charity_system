@@ -1,5 +1,5 @@
 .footer{
-    background-color: black ;
+    background-color: #252422 ;
 
 .text {
     color: white;
@@ -11,7 +11,7 @@
 }
  .footer-copyright{
     color: white;
-    border: 2px solid white ;
+    border: 1px solid grey ;
     text-align: center;
  }
  .col{

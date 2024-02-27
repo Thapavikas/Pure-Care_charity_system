@@ -6,9 +6,9 @@ import './../layouts/Campaign.css'
 const CampaignModal = () => {
   return (
     <div class='Campaign'>
-      <h3 style={{textDecoration:'underline', textAlign:'center'}}>Manual Bank Account Details </h3>
+      <h3 class='Accheading'>Manual Bank Account Details </h3>
       <div class='Accdetails'>
-        <p style={{padding:'10px'}}>
+        <p class='Accpara'>
           <b>
           Account Number : 12345678901<br/>
           IFSC Code: SBIN1112341<br/>

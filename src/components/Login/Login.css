@@ -1,6 +1,7 @@
 .login-box{
     border-radius: 10px;
     position: relative;
+    justify-content: center;
     left: 32rem;
     top: 6rem;
     height: 360px;

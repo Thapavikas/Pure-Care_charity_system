@@ -1,7 +1,4 @@
-.slider{
-.slides{
-   background-position: top;
-   background-size:cover;
-    background-image: url('../../img/banner/backgroundImg.jpg');
-}
+img{
+    height: 450px;
+    width: 100%;
 }

@@ -1,26 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../layouts/Navbar.css';
-import navbarLogo from '../../img/Navbar/Navbar1.png';
+import { MdMenu } from "react-icons/md";
 
 const Navbar = () => {
   return (
     <header>
-      <div className='navbar-fixed '>
+      <div class='navbar '>
         <nav>
           <div className='nav-wrapper'>
-            <Link to='/' className='brand-logo hide-on-small-only'>
-              <div className='CharityLogo'></div>
+            <Link to='/' className='brand-logo hide-on-small-only' style={{paddingLeft:'10px',fontSize:'30px'}}>
+              Pure Care
             </Link>
             <Link
               to='/'
               className='brand-logo show-on-small hide-on-med-and-up'
-            >
-              Charity Foundation
+             >
+              Pure Care
             </Link>
 
             <Link to='/' data-target='mobile-demo' className='sidenav-trigger'>
-              <i className='material-icons'>menu</i>
+              <MdMenu/>
             </Link>
             <ul id='nav-mobile' className='right hide-on-med-and-down'>
               <li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <Link className='Design' to='/contact' onClick={() => window.scrollTo(0, 0)}>Contact</Link>
               </li>
               <li>
-                <Link className='Design' to='/Login' onClick={() => window.scrollTo(0, 0)}>Login</Link>
+                <Link className='Design1' to='/Login' onClick={() => window.scrollTo(0, 0)}>Login</Link>
               </li>
             </ul>
           </div>

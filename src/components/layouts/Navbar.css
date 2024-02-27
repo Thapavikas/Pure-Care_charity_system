@@ -1,18 +1,35 @@
-.navbar-fixed {
+.navbar {
 .nav-wrapper{
-    background-color: black;
+    background-color:#252422;
 }
-
+/* this is for the content for the navbar */
 .Design:hover{
     color: #219ebc;
 }
+
+li:last-child{
+    border-radius: 8px;
+    height: 40px;
+    position: relative;
+    top: 0.8rem;
+    background-color: #f77f00;
+}
+
+.Design1{
+    position: relative;
+    bottom: 1rem;
+    
+}
+
 .brand-logo{
     font-size: 15px;
     height: 100px;
 }
+
 .brand-logo:hover{
     color: grey;
 }
+
 .CharityLogo{
     height: 50px;
     width: 200px;

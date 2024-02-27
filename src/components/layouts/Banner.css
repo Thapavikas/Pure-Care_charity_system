@@ -1,4 +1,7 @@
-img{
-    height: 450px;
+.bannerimg{
+    background: url('../../img//banner/backgroundImg3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
     width: 100%;
 }

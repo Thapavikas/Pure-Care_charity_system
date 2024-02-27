@@ -46,7 +46,7 @@
     left: 22rem;
  }
 
- @media (max-width:768px) {
+ @media only screen and (max-width:768px) {
     .Accheading{
         text-decoration:underline;
          text-align:center;
@@ -93,7 +93,7 @@
     
  }
 
- @media (max-width:500px) {
+ @media only screen and (max-width:500px) {
     .Accheading{
         text-decoration:underline;
          text-align:center;

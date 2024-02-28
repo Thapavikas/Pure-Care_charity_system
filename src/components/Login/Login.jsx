@@ -2,7 +2,6 @@ import {useState} from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom';
 import '../Login/Login.css'
-import Img1 from '../../img/Login/Loginpage.jpg'
 
 
 export default function Login(){
@@ -19,7 +18,7 @@ export default function Login(){
 
     return(
         <div className='Login_page'>
-            <img src={Img1}/>
+            
                 <form className="login-box"  onSubmit={handleSubmit}>
                     <p className="page1">Login Page</p>
                     <div className="login-container">

@@ -113,3 +113,40 @@
      transform: scale(.9);
   
   }
+
+  .gif1{
+    background: url('../../img/FoodDonate/delivery.gif');
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 25rem;
+  }
+
+  /* this is for responsive */
+@media (max-width: 500px) {
+  .logo{
+    place-items: center;
+  }
+  .Elogo1{
+    font-weight: bold;
+    b{
+      color:white;
+    }
+  }  
+    .para{
+      text-align: center;
+      align-items: justify;
+    }
+
+    .gif1{
+      background: url('../../img/FoodDonate/delivery.gif');
+      height: 300px;
+      width: 400px;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      left: 0.2rem;
+    }
+  }

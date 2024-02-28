@@ -2,7 +2,6 @@ import {useState} from 'react'
 import axios from 'axios'
 import '../Register/Register.css'
 import {Link,useNavigate} from 'react-router-dom';
-import img1 from '../../img/Login/Loginpage.jpg'
 
 export default function Register(){
 
@@ -20,7 +19,6 @@ export default function Register(){
 
     return(
         <div className='register'>
-                <img src={img1}></img>
                 <form className="Rform-box"  onSubmit={handleSubmit}>
                     <p className="Rpage1">Sign up</p>
                     <div className="Rinput-container">

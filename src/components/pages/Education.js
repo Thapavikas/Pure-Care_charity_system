@@ -35,8 +35,10 @@ const Education = () => {
         <div class="deli" style={{display: 'grid'}} >
           <p class="Eheading">DOOR PICKUP</p>
           <br/>
-          <p  class="para" >"Your donate will be immediately collected and sent to Child Education "</p>
-          <img src={FoodBank3} style={{marginLeft:'auto',marginRight:'auto'}} />
+          <p  class="para" >"Your donate will be immediately collected and sent for Child Education "</p>
+          <div class='gif1'>
+
+          </div>
         </div>
       </div>
     </main>

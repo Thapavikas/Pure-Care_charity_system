@@ -37,14 +37,14 @@ const FoodBank1 = () => {
                 <input type="text" id="phoneno" name="phoneno" placeholder='User Phone' onChange={e=>{setphone(e.target.value)}}/>
             </div>
             <div class="checkbox">
-                <label for="Ecategry" style={{fontSize:'20px',color:'black'}}> <b>Meal type:<br/>Veg<br/>Non-Veg</b></label> 
+                <label for="Fcategry" style={{fontSize:'20px',color:'black'}}> <b>Meal type:<br/>Veg<br/>Non-Veg</b></label> 
                 <br/>
-                <input type='text' placeholder='Enter the option' id='Ecategry' onChange={e=>{settype(e.target.value)}}/>
+                <input type='text' placeholder='Enter the option' id='Fcategry' onChange={e=>{settype(e.target.value)}}/>
             <div class='Fquantity'>
                 <label for='Quantity' style={{fontSize:'20px'}}/> Quantity:(Person)
-                <input type='number' placeholder='Enter the quantity' id='Quantity' onChange={e=>{setQuantity(e.target.value)}}/>
+                <input type='number' min='0' placeholder='Enter the quantity' id='Quantity' onChange={e=>{setQuantity(e.target.value)}}/>
             </div>
-            <div class="EDselect">
+            <div class="FDselect">
                 <label for="location"></label>
                 <label for="district" style={{color:'black'}}>Place:</label>
                 <select id="district" name="district" onChange={e=>{setplace(e.target.value)}} >

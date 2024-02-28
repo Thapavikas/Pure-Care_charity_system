@@ -2,7 +2,7 @@
     border-radius: 10px;
     position: relative;
     left: 30rem;
-    top: 6rem;
+    top: 2rem;
     height: 450px;
     width: 300px;
     border: 1px solid grey;
@@ -64,11 +64,21 @@
   .register{
     width: 100vw;
     height: 100vh;
-    
-    img{
-      width: 100%;
-      position: absolute;
-      object-fit: cover;
-      z-index: -1;
+    background: url('../../img/Login/Loginpage.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (max-width: 500px){
+    .Rform-box{
+      border-radius: 10px;
+      position: relative;
+      left: 3rem;
+      top: 6rem;
+      height: 450px;
+      width: 300px;
+      border: 1px solid grey;
+      box-shadow: 10px 5px 5px grey;
+      background: white;
     }
   }

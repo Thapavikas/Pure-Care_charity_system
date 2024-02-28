@@ -1,3 +1,4 @@
+/* this is login form box */
 .login-box{
     border-radius: 10px;
     position: relative;
@@ -46,6 +47,7 @@
     border-bottom: 1px solid black;
     background: transparent;
   }
+  
   button[type="submit"] {
     cursor: pointer;
     width: 250px;
@@ -59,13 +61,31 @@
   }
   
   .Login_page{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    
-    img{
-      width: 100%;
-      position: absolute;
-      object-fit: cover;
-      z-index: -1;
-    }
+    background: url('../../img/Login/Loginpage.jpg');
+    background-position: center;
+    background-size: cover;
   }
+ @media (max-width: 500px){
+  .login-box{
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    left: 3rem;
+    top: 6rem;
+    height: 360px;
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 10px 5px 5px grey;
+    background: white;
+  }
+
+  .Login_page{
+    width: 100%;
+    height: 100vh;
+    background: url('../../img/Login/Loginpage.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+ }

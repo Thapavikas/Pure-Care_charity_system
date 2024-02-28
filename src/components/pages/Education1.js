@@ -36,7 +36,7 @@ const Education1 = () => {
                         <input type="text" id="phoneno" name="phoneno" placeholder='User Phone' onChange={e=>{setphone(e.target.value)}}/>
                     </div>
                     <div class="checkbox">
-                        <label for="Ecategry" style={{fontSize:'20px',color:'black'}}> <b>what would you like to Donate:<br/>TextBooks<br/>Stationery supplies<br/> Eduactional Toys and Games<br/>Library Books<br/></b></label> 
+                        <label for="Ecategry" style={{fontSize:'20px',color:'black'}}> <b>what would you like to Donate:<br/>1.TextBooks<br/>2.Stationery supplies<br/>3. Eduactional Toys and Games<br/>4.Library Books<br/></b></label> 
                         <br/>
                         <input type='text' placeholder='Enter the option' id='Ecategry' onChange={e=>{setdonate(e.target.value)}}/>
                     <div class="EDselect">

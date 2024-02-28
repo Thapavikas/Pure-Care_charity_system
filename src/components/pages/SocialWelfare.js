@@ -5,9 +5,8 @@ import { Link, useNavigat } from 'react-router-dom';
 const SocialWelfare = () => {
   return (
     <main>
-          <div class='SWhead'>
-            <h1 class='SWheading'> <b>Social Welfare</b></h1>
-            <p class='SWpara'><b>Helping Those in Need</b></p>
+            <h1 class='SWheading'> <b>Social Welfare</b><br/><b>Helping Those in Need</b></h1>
+          <div class='SWdonate'>
           <Link to='/SocialWelfare1'>Donate now</Link>
           </div>
         <h2>OUR WORK</h2>

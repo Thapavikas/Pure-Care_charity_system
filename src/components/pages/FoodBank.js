@@ -12,8 +12,8 @@ const FoodBank = () => {
   return (
     <main>
       <div class="logo">
-        <p class='logo1'>Food <b>Donate</b></p>
-        <section class="banner">
+        <p class='Flogo1'>Food <b>Donate</b></p>
+        <section class="Fbanner">
         <Link to='/foodbank1'>Donate now</Link>
         </section>
         <div class="content">
@@ -33,11 +33,13 @@ const FoodBank = () => {
                 <img class="box" src={FoodBank2} alt=''/>
               </div>
         </div>
-        <div class="deli" style={{display: 'grid'}} >
+        <div class="deli" >
           <p class="heading">DOOR PICKUP</p>
           <br/>
           <p  class="para" >"Your donate will be immediately collected and sent to needy people "</p>
-          <img src={FoodBank3} style={{marginLeft:'auto',marginRight:'auto'}} />
+          <div class='gif'>
+            
+          </div>
         </div>
       </div>
     </main>

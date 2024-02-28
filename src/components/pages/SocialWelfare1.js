@@ -19,25 +19,25 @@ const SocialWelfare1=()=> {
     }
     return(
         <main>
-            <div class='Vform'>
-                <form class='VDform' onSubmit={handleSelfWelfare}>
-                    <p class="Vlogo"><b>SocialWelfare</b></p>
-                    <div class="EDname">
-                    <label for="name" style={{color:'black'}}> User Full Name</label>
-                    <input type="text" id="name" name="name" placeholder='User Full Name' onChange={e=>{setName(e.target.value)}}/>
+            <div class='SWform'>
+                <form class='Sform' onSubmit={handleSelfWelfare}>
+                    <p class="Slogo"><b>SocialWelfare</b></p>
+                    <div class="SWname">
+                        <label for="name" style={{color:'black'}}> User Full Name</label>
+                        <input type="text" id="name" name="name" placeholder='User Full Name' onChange={e=>{setName(e.target.value)}}/>
                     </div>
-                    <div class='VDemail'>
+                    <div class='SWemail'>
                         <label for="email" style={{color:'black'}}>Email:</label>
                         <input type="email" id="email" name="email" placeholder='User Email'onChange={e=>{setemail(e.target.value)}}/>
                     </div>
-                    <div class='VDphone'>
+                    <div class='SWphone'>
                         <label for="phoneno" style={{color:'black'}}>PhoneNo:</label>
                         <input type="text" id="phoneno" name="phoneno" placeholder='User Phone' onChange={e=>{setphone(e.target.value)}}/>
                     </div>
-                    <div class="checkbox">
-                        <label for="Vcategry" style={{fontSize:'20px',color:'black'}}> <b>What would you like to donate</b></label> 
+                    <div class="checkbox1">
+                        <label for="Scategry" style={{fontSize:'20px',color:'black'}}> <b>What would you like to donate</b></label> 
                         <br/>
-                        <input type='text' placeholder='Enter your skill' id='Vcategry' onChange={e=>{setdonate(e.target.value)}}/>
+                        <input type='text' placeholder='Enter your skill' id='Scategry' onChange={e=>{setdonate(e.target.value)}}/>
                     <div class="VDselect">
                         <label for="location"></label>
                         <label for="district" style={{color:'black'}}>Place:</label>
@@ -48,12 +48,12 @@ const SocialWelfare1=()=> {
                             <option value="K R puram">K R puram</option>
                         </select> 
                     </div>
-                        <div class='VDaddress'>
+                        <div class='SWaddress'>
                             <label for="address" style={{color:'black'}}>Address:</label>
                             <input type="text" id="address" name="address" onChange={e=>{setaddress(e.target.value)}}/><br/>
                         </div>
                     </div>
-                    <button id='VDsubmit' type='submit'>Submit</button>
+                    <button id='SWsubmit' type='submit'>Submit</button>
                 </form>
             </div>
         </main>

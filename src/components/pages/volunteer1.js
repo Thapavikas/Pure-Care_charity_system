@@ -20,25 +20,25 @@ const Volunteer1=()=> {
     
     return(
         <main>
-            <div class='Vform'>
-                <form class='VDform' onSubmit={handleVolunteer}>
-                    <p class="Vlogo"><b>Volunteer</b></p>
+            <div class='Vform1'>
+                <form class='VDform1' onSubmit={handleVolunteer}>
+                    <p class="Vlogo1"><b>Volunteer</b></p>
                     <div class="EDname">
                     <label for="name"style={{color:'black'}}> User Full Name</label>
                     <input type="text" id="name" name="name" placeholder='User Full Name' onChange={e=>{setName(e.target.value)}}/>
                     </div>
-                    <div class='VDemail'>
+                    <div class='VDemail1'>
                         <label for="email"style={{color:'black'}}>Email:</label>
                         <input type="email" id="email" name="email" placeholder='User Email'onChange={e=>{setemail(e.target.value)}}/>
                     </div>
-                    <div class='VDphone'>
+                    <div class='VDphone1'>
                         <label for="phoneno"style={{color:'black'}}>PhoneNo:</label>
                         <input type="text" id="phoneno" name="phoneno" placeholder='User Phone' onChange={e=>{setphone(e.target.value)}}/>
                     </div>
                     <div class="checkbox">
-                        <label for="Vcategry" style={{fontSize:'20px',color:'black'}}> <b>Please enter your skills eg:teaching</b></label> 
+                        <label for="Vcategry1" style={{fontSize:'20px',color:'black'}}> <b>Please enter your skills eg:teaching</b></label> 
                         <br/>
-                        <input type='text' placeholder='Enter your skill' id='Vcategry' onChange={e=>{setskills(e.target.value)}}/>
+                        <input type='text' placeholder='Enter your skill' id='Vcategry1' onChange={e=>{setskills(e.target.value)}}/>
                     <div class='Vtime'>
                     {/* <label class='Vparty' for="party">Enter a date and time for you Volunteering</label>
                         <input
@@ -47,7 +47,7 @@ const Volunteer1=()=> {
                         name="partydate"
                         value="2017-06-01T08:30" /> */}
                     </div>
-                    <div class="VDselect">
+                    <div class="VDselect1">
                         <label for="location"></label>
                         <label for="district" style={{color:'black'}}>Place:</label>
                         <select id="district" name="district" onChange={e=>{setplace(e.target.value)}} >
@@ -57,12 +57,12 @@ const Volunteer1=()=> {
                             <option value="K R puram">K R puram</option>
                         </select> 
                     </div>
-                        <div class='VDaddress'>
+                        <div class='VDaddress1'>
                             <label for="address" style={{color:'black'}}>Address:</label>
                             <input type="text" id="address" name="address" onChange={e=>{setaddress(e.target.value)}}/><br/>
                         </div>
                     </div>
-                    <button id='VDsubmit' type='submit'>Submit</button>
+                    <button id='VDsubmit1' type='submit'>Submit</button>
                 </form>
             </div>
         </main>

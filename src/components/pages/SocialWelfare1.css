@@ -1,36 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.Vform{
+.SWform{
     background-color: white;
     height: 1000px;
+    background-color:  darkgoldenrod;
 }
-.Vlogo{
+.Slogo{
     text-align: center;
     font-size: 20px;
     b{
-        color: black;
+        color: darkgoldenrod;
     }
 }
-.VDform{
+.Sform{
     border: 2px solid gray;
     width: 450px;
     border-radius: 5px;
     position: relative;
-    top: 10rem;
+    top: 2rem;
     left: 28rem;
     background: white;
     box-shadow: 10px 5px 5px gray;
 }
-.VDemail{
+.SWemail{
     width: 400px;
     padding: 5px;
     margin: 5px;
 }
-.VDname{
+.SWname{
     width: 400px;
     padding: 5px;
     margin: 5px;
 }
-.VDphone{
+.SWphone{
     width: 400px;
     padding: 5px;
     margin: 5px;
@@ -39,7 +40,7 @@
     width: 200px;
     margin: 5px;
 }
-.checkbox{
+.checkbox1{
     margin: 8px;
 }
 .VDaddress{
@@ -47,10 +48,10 @@
     width: 350px;
     margin: 1px;
 }
-#Vcategry{
+#Scategry{
     width: 400px;
 }
-#VDsubmit{
+#SWsubmit{
     width: 400px;
     text-align: center;
     background-color: black;
@@ -60,4 +61,61 @@
     margin: 6px;
     position: relative;
     left: 1.5rem;
+}
+@media(max-width: 500px){
+    .Sform{
+        border: 2px solid gray;
+        width: 350px;
+        border-radius: 5px;
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+        background: white;
+        box-shadow: 10px 5px 5px gray;
+    }
+    /* this is email */
+.SWemail{
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+/* this is username */
+.SWname{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+/* this is user phone */
+.SWphone{
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.VDselect{
+    width: 250px;
+    margin: 5px;
+}
+
+.SWaddress{
+    padding: 10px;
+    width: 250px;
+    margin: 1px;
+}
+#Scategry{
+    width: 250px;
+}
+#SWsubmit{
+    width: 250px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.Vquantity{
+    width: 250px;
+}
+
 }

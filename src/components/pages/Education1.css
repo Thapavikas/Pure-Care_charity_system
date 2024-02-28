@@ -59,3 +59,61 @@
     border-radius: 5px;
     margin: 10px;
 }
+
+@media(max-width: 500px){
+    .EDform{
+        border: 2px solid gray;
+        width: 350px;
+        border-radius: 5px;
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+        background: white;
+        box-shadow: 10px 5px 5px gray;
+    }
+    /* this is email */
+.EDemail{
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+/* this is username */
+.EDname{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+/* this is user phone */
+.EDphone{
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.EDselect{
+    width: 250px;
+    margin: 5px;
+}
+
+.EDaddress{
+    padding: 10px;
+    width: 250px;
+    margin: 1px;
+}
+#Ecategry{
+    width: 250px;
+}
+#EDsubmit{
+    width: 250px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.Equantity{
+    width: 250px;
+}
+
+}

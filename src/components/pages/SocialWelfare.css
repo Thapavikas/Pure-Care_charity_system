@@ -1,35 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.SWhead{
-    height: 400px;
-    width: 1005;
-    background-image: url('../../img/SocialWelfare/charity.jpg');
-    background-position: center;
-    background-size: cover;
+.SWheading{
+  position: absolute;
+  color: navajowhite;
+  font-weight: bold;
+  top: 8rem;
+  left: 35rem;
+  align-items: justify;
+  font-size: 25px;
 }
-.SWheading {
-    text-align: center;
-    b{
-        color: white;
-    }
-
+.SWdonate{
+  width: auto;
+  height: 400px;
+  background:url('../../img/SocialWelfare/charity.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items:center;
+  padding-top: 8rem;
 }
-
- .SWpara{
-    font-size: 30px;
-    text-align: center;
-    b{
-        color: white;
-    }
-}
-
-.banner a
+.SWdonate a
 {
   display: inline-block;
   border-radius: 5px;
   position: relative;
-  top: 3.5rem;
+  top: 7.5rem;
   font-size: 1em;
-  background: #111;
+  background: darkgoldenrod;
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
@@ -40,7 +36,7 @@
   transition: 0.2s;
 }
 
-.SWhead a:hover
+.SWdonate a:hover
 {
   letter-spacing: 6px;
 }
@@ -193,5 +189,17 @@ h2{
     }
     100% {
       transform: translateX(-350px);
+    }
+  }
+
+  @media (max-width:500px){
+    .SWheading{
+      position: absolute;
+      color: navajowhite;
+      font-weight: bold;
+      top:8rem;
+      left: 6.5rem;
+      align-items: justify;
+      font-size: 25px;
     }
   }

@@ -286,16 +286,16 @@
     }
   
     .text-blk.headingText {
-      text-align: center;
+      text-align: justify;
     }
   
     .text-blk.subHeadingText {
-      text-align: center;
+      text-align: justify;
       font-size: 25px;
     }
   
     .text-blk.description {
-      text-align: center;
+      text-align: justify;
       font-size: 25px;
     }
   
@@ -347,6 +347,7 @@
     .text-blk.subHeadingText {
       font-size: 25px;
       padding-top: 0px;
+      text-align: justify;
       padding-right: 0px;
       padding-bottom: 0px;
       padding-left: 0px;
@@ -356,12 +357,14 @@
       font-size: 25px;
       padding-top: 0px;
       padding-right: 0px;
+      text-align: justify;
       padding-bottom: 0px;
       padding-left: 0px;
     }
   
     .allText {
       padding-top: 0px;
+      text-align: justify;
       padding-right: 0px;
       padding-bottom: 0px;
       padding-left: 0px;

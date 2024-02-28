@@ -2,6 +2,7 @@ import {useState} from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom';
 import '../Login/Login.css'
+import Swal from 'sweetalert2';
 
 
 export default function Login(){
@@ -16,9 +17,18 @@ export default function Login(){
         .catch(err=>console.log(err))
     }
 
+    const handleCick = () => {
+        Swal.fire({
+            position: "middle",
+            icon: "success",
+            title: "Your have Succesfully Loged in ",
+            showConfirmButton: false,
+            timer: 1500
+          });
+    }
+
     return(
         <div className='Login_page'>
-            
                 <form className="login-box"  onSubmit={handleSubmit}>
                     <p className="page1">Login Page</p>
                     <div className="login-container">
@@ -30,7 +40,7 @@ export default function Login(){
                         <input id='password' type="password" placeholder='Password' name='password' onChange={e=>setPassword(e.target.value)}/>
                     </div>
                     <br />
-                    <button type='submit'>Login</button>
+                    <button type='submit' onClick={handleCick}>Login</button>
                     <br />
                     <p className='page3'>Don't have an account? <Link to={'/register'}>Sign up</Link> </p>
                     

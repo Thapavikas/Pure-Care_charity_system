@@ -6,7 +6,7 @@
     left: 32rem;
     top: 6rem;
     height: 360px;
-    width: 300px;
+    width: 350px;
     border: 1px solid grey;
     box-shadow: 10px 5px 5px grey;
     background: white;
@@ -36,7 +36,7 @@
   
   .login-container {
     display: flex;
-    width: 250px;
+    width: 300px;
     flex-direction: column;
     gap: 8px;
     margin: 10px;
@@ -87,5 +87,19 @@
     background: url('../../img/Login/Loginpage.jpg');
     background-position: center;
     background-size: cover;
+  }
+  .login-container {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  
+  .login-container input{
+    border: none;
+     width: 250px;
+    border-bottom: 1px solid black;
+    background: transparent;
   }
  }

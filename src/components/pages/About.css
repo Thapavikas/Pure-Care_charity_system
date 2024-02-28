@@ -347,7 +347,6 @@
     .text-blk.subHeadingText {
       font-size: 25px;
       padding: 20px;
-      text-align: justify;
       width: 400px;
 
     }
@@ -357,7 +356,7 @@
       padding: 20px;
       width: 400px;
       padding-right: 0px;
-      text-align: justify;
+      
 
     }
   

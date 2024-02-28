@@ -2,6 +2,7 @@ import React from 'react';
 import axios, { Axios } from 'axios';
 import { useState } from 'react';
 import '../pages/Education1.css'
+import Swal from 'sweetalert2'
 
 
 const Education1 = () => {
@@ -17,6 +18,13 @@ const Education1 = () => {
         event.preventDefault()
         axios.post('http://localhost:3001/Education1',[name,email,phone,donate,place,address])
         .catch(err=>console.log(err))
+    }
+    const handleCick = () =>{
+        Swal.fire({
+            title: "Thank you!",
+            text: "Your Details has been Successfully Submited Thank you  !",
+            icon: "success"
+          });
     }
     return (
         <main>
@@ -54,7 +62,7 @@ const Education1 = () => {
                             <input type="text" id="address" name="address" onChange={e=>{setaddress(e.target.value)}}/><br/>
                         </div>
                     </div>
-                    <button id='EDsubmit' type='submit'>Submit</button>
+                    <button id='EDsubmit' type='submit'onClick={handleCick}>Submit</button>
                 </form>
             </div>
         </main>

@@ -2,6 +2,7 @@ import React from 'react';
 import axios, { Axios } from 'axios'
 import { useState } from 'react';
 import '../pages/volunteer1.css'
+import Swal from 'sweetalert2'
 
 const Volunteer1=()=> {
 
@@ -17,7 +18,16 @@ const Volunteer1=()=> {
         axios.post('http://localhost:3001/volunteer1',[name,email,phone,donate,place,address])
         .catch(err=>console.log(err))
     }
-    
+    const handleCick = () =>{
+        Swal.fire({
+            title: "Thank you for joining ",
+            text: "Join us in creating a ripple of change as a volunteer, where every act of kindness contributes to a wave of positive transformation in our community.",
+            imageUrl: "https://unsplash.it/400/200",
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: "Custom image"
+          });
+    }
     return(
         <main>
             <div class='Vform1'>
@@ -62,7 +72,7 @@ const Volunteer1=()=> {
                             <input type="text" id="address" name="address" onChange={e=>{setaddress(e.target.value)}}/><br/>
                         </div>
                     </div>
-                    <button id='VDsubmit1' type='submit'>Submit</button>
+                    <button id='VDsubmit1' type='submit'onClick={handleCick}>Submit</button>
                 </form>
             </div>
         </main>

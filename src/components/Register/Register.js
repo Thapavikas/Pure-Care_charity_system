@@ -2,6 +2,7 @@ import {useState} from 'react'
 import axios from 'axios'
 import '../Register/Register.css'
 import {Link,useNavigate} from 'react-router-dom';
+import Swal from 'sweetalert2'
 
 export default function Register(){
 
@@ -15,6 +16,15 @@ export default function Register(){
         axios.post('http://localhost:3001/register',[username,email,password])
         .then(res=>navigate('/login'))
         .catch(err=>console.log(err))
+    }
+    const handleCick = () => {
+        Swal.fire({
+            position: "middle",
+            icon: "success",
+            title: "Your have Successfully Registered",
+            showConfirmButton: false,
+            timer: 1500
+          });
     }
 
     return(
@@ -34,7 +44,7 @@ export default function Register(){
                     <input id='password' type="password" placeholder='Password' name='password' required onChange={e=>setPassword(e.target.value)}/>
                     </div>
                     <br />
-                    <button type='submit'>Register</button>
+                    <button type='submit' onClick={handleCick} >Register</button>
                     <br />
                     <p className='Rpage2'>Have an account? <Link to={'/login'}>Login</Link> </p>
                     

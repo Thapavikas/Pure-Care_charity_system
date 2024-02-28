@@ -3,7 +3,6 @@ import '../pages/Education.css'
 import Education1 from '../../img/Education/EducationImg1.jpg';
 import  Education2 from '../../img/Education/EducationImg2.jpg';
 import  Education3 from '../../img/Education/EducationImg3.jpg';
-import FoodBank3 from '../../img/FoodDonate/delivery.gif';
 import { Link, useNavigat } from 'react-router-dom';
 
 const Education = () => {

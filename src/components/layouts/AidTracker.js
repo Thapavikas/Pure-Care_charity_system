@@ -12,7 +12,7 @@ const AidTracker = () => {
         <AidTrackerItem  title='People Helped' count='1000' />
       </div>
       <div className='row'>
-        <h6>Updated 10AM Today | Since Aug 2020</h6>
+        <h6>Updated 10AM Today | Since Mar 2024</h6>
       </div>
     </div>
   );

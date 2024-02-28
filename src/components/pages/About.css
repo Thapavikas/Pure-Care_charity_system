@@ -106,6 +106,7 @@
   
   .text-blk.subHeadingText {
     color: rgb(102, 102, 102);
+    text-align: justify;
     font-size: 25px;
     line-height: 34px;
     font-weight: 700;
@@ -121,6 +122,7 @@
   
   .text-blk.description {
     font-size: 25px;
+    text-align: justify;
     line-height: 34px;
     color: rgb(102, 102, 102);
     margin-top: 0px;

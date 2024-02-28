@@ -4,7 +4,7 @@ import { useState } from 'react';
 import '../pages/SocialWelfare1.css'
 import Swal from 'sweetalert2'
 
-const SocialWelfare1=()=> {
+const SocialWelfare1= () => {
 
     const [name,setName] = useState("")
     const [email,setemail] = useState("")
@@ -15,7 +15,8 @@ const SocialWelfare1=()=> {
 
     const handleSelfWelfare=(event)=>{
         event.preventDefault()
-        axios.post('http://localhost:3000/SocialWelfare1',[name,email,phone,donate,place,address])
+        axios.post('http://localhost:3001/SocialWelfare1',[name,email,phone,donate,place,address])
+        .then(res=>console.log(res))
         .catch(err=>console.log(err))
     }
 

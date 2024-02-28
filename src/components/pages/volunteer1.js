@@ -4,18 +4,18 @@ import { useState } from 'react';
 import '../pages/volunteer1.css'
 import Swal from 'sweetalert2'
 
-const Volunteer1=()=> {
+const Volunteer1= () => {
 
     const [name,setName] = useState("")
     const [email,setemail] = useState("")
     const [phone,setphone] = useState("")
-    const [donate,setskills] = useState("")
+    const [skill,setskills] = useState("")
     const [place,setplace] = useState("")
     const [address,setaddress] = useState("")
 
     const handleVolunteer=(event)=>{
         event.preventDefault()
-        axios.post('http://localhost:3001/volunteer1',[name,email,phone,donate,place,address])
+        axios.post('http://localhost:3001/volunteer1',[name,email,phone,skill,place,address])
         .catch(err=>console.log(err))
     }
     const handleCick = () =>{

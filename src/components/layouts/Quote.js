@@ -18,7 +18,7 @@ const Quote = () => {
       />
       <QuoteItem
         red='98% of the richest'
-        text=' people and only 79.2% of the poorest people in Pakistan have clean water.'
+        text=' people and only 63.2% of the poorest people in India have clean water.'
       />
       <QuoteItem
         red='19,500 children'

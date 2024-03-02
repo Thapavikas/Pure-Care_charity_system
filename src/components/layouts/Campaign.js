@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigat } from 'react-router-dom';
 const Campaign = () => {
   return (
-    <div className='container green center white-text'>
+    <div className='container orange center white-text'>
       <div className='container'>
         <h1>Campaign</h1>
         <h3>Uttrakhand Winter Aid</h3>

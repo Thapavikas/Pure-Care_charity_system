@@ -7,9 +7,9 @@ const Campaign = () => {
         <h1>Campaign</h1>
         <h3>Uttrakhand Winter Aid</h3>
         <p>
-          Uttrakhand is facing its coldest winter in 30 years! Charity Foundation will be
+          Uttrakhand is facing its coldest winter in 30 years! Pure Care Charity Foundation will be
           providing warm sweaters, shawls, and blankets to those in need. Let's
-          help keep the needy people of Lahore warm!
+          help keep the needy people of Uttrakhand warm!
         </p>
         <Link
           className='waves-effect waves-light pulse black btn-large modal-trigger hide-on-small-only'

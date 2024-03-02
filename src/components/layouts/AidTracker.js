@@ -6,7 +6,7 @@ const AidTracker = () => {
       <h1>What We Did</h1>
       <br />
       <div className='row'>
-        <AidTrackerItem  title='Wells Constructed' count='50' />
+        <AidTrackerItem F title='Wells Constructed' count='50' />
         <AidTrackerItem  title='Schools Created' count='70' />
         <AidTrackerItem title='Students Enrolled' count='500' />
         <AidTrackerItem  title='People Helped' count='1000' />

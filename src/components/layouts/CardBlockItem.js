@@ -14,7 +14,7 @@ const CardBlockItem = props => {
             <i className='material-icons right'></i>
           </span>
           <p>
-            <Link className={props.button} to={props.html}>
+            <Link className={props.button} to={props.html}  onClick={() => window.scrollTo(0, 0)}>
               Learn More
             </Link>
           </p>

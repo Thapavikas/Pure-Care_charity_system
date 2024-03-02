@@ -13,13 +13,13 @@ const Campaign = () => {
         </p>
         <Link
           className='waves-effect waves-light pulse black btn-large modal-trigger hide-on-small-only'
-          to='/CampaignModal'
+          to='/CampaignModal'   onClick={() => window.scrollTo(0, 0)}
         >
         Contribute
         </Link>
         <Link
           className='waves-effect waves-light pulse black btn-small modal-trigger hide-on-med-and-up'
-          to='/CampaignModal'
+          to='/CampaignModal'  onClick={() => window.scrollTo(0, 0)}
         >
           Contribute
         </Link>

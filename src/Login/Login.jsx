@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom';
-import '../Login/Login.css'
+import './Login.css'
 import Swal from 'sweetalert2';
 
 
@@ -30,7 +30,7 @@ export default function Login(){
     return(
         <div className='Login_page'>
                 <form className="login-box"  onSubmit={handleSubmit}>
-                    <p className="page1">Login Page</p>
+                    <p className="page1">Sign in</p>
                     <div className="login-container">
                         <label for='email'>User Email ID</label>
                         <input id='email' type="email" placeholder='Email' name='email' onChange={e=>setEmail(e.target.value)}/>

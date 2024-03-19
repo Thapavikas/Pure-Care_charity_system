@@ -24,6 +24,7 @@ import CampaignModal from './components/layouts/CampaignModal.js';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import { Routes} from 'react-router-dom';
+import Preloader from './components/preloader/Preloader.js';
 
 
 
@@ -32,8 +33,10 @@ const App = () => {
     M.AutoInit();
   });
 
+
   return (
     <>
+    <Preloader/>
       <Router>
         <Navbar />
           <Routes>

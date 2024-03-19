@@ -1,3 +1,9 @@
+.container1{
+    box-shadow: 10px 10px 5px 5px;
+    background: linear-gradient(#d8e2dc,#ffb703);
+    text-align: center;
+}
+
 .Campaign{
     height: 1000px;
 }

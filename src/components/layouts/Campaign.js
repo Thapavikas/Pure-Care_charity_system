@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link, useNavigat } from 'react-router-dom';
+import './../layouts/Campaign.css'
 const Campaign = () => {
   return (
-    <div className='container orange center white-text'>
-      <div className='container'>
+    <div className='container'>
+      <div className='container1'>
         <h1>Campaign</h1>
         <h3>Uttrakhand Winter Aid</h3>
         <p>

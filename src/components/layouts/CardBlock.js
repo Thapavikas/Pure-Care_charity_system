@@ -36,7 +36,7 @@ const CardBlock = () => {
           title='Social Welfare'
           image={SocialWelfare}
           html='/socialwelfare'
-          content='Our recent and ongoing projects include building wells and providing clean drinking water in poor communities across the globe. TIFC has initiated a water supply system, Sabeel-e-Rehmat (SER), to ensure that clean drinking water is being provided to poor communities around the world'
+          content='Our organization is dedicated to serving those who are disadvantaged, marginalized, or facing hardships. With a focus on inclusivity and empowerment, we strive to create opportunities for individuals to thrive and contribute to their communities.'
         />
       </div>
       <div className='row'>
@@ -46,15 +46,19 @@ const CardBlock = () => {
           title='Gallery'
           image={Water}
           html='/gallery'
-          content=''
+          content='View captivating images capturing moments of compassion, resilience, and community engagement from our programs and initiatives.
+          Browse through photos showcasing the diverse range of individuals and communities we serve, highlighting their strength and dignity.'
         />
 
         <CardBlockItem
           card='card medium red  lighten-2 hoverable'
           button='waves-effect waves-light red lighten-1 btn-large'
-          title='volunteer'
+          title='Volunteer'
           image={volunteer}
           html='/volunteer'
+          content='Make an Impact: Join a community of dedicated volunteers committed to creating positive change and improving lives.
+          Gain Experience: Develop new skills, expand your network, and enhance your personal and professional growth through hands-on experience.
+          Build Connections: Connect with like-minded individuals, forge lasting friendships, and become part of a supportive and inclusive community.'
         />
 
         <CardBlockItem
@@ -63,6 +67,7 @@ const CardBlock = () => {
           title='Contact'
           image={Events}
           html='/contact'
+          content='Have questions or feedback? Were here to help! Get in touch with us using the following contact information'
         />
       </div>
     </div>

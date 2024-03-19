@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <ul className='sidenav ' id='mobile-demo'>
+      <ul className='sidenav '  id='mobile-demo'>
         <li>
           <Link className='Design' to='/About' onClick={() => window.scrollTo(0, 0)}>About</Link>
         </li>

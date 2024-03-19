@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, BrowserRouter } from 'react-router-dom';
 
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer.js';
@@ -38,10 +38,8 @@ const App = () => {
     <>
     <Preloader/>
       <Router>
-        <Navbar />
+        <Navbar/>
           <Routes>
-            <Route path='/Register' element={<Register/>}></Route>
-            <Route path='/Login' element={<Login/>}/>
             <Route path='/Education1' element={<Education1/>}/> 
             <Route path='/foodbank1' element={<FoodBank1/>}/>
             <Route exact path='/' element={<Home/>} />
@@ -56,8 +54,10 @@ const App = () => {
             <Route exact path='/volunteer1' element={<Volunteer1/>} />
             <Route exact path='/contact' element={<ContactUs/>} />
             <Route exact path='/CampaignModal' element={<CampaignModal/>} />
+            <Route path='/Register' element={<Register/>}></Route>
+            <Route path='/Login' element={<Login/>}/>
           </Routes>
-        <Footer />
+        <Footer/>
       </Router>
     </>
   );

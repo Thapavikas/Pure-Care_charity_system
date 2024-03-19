@@ -33,20 +33,20 @@ export default function Register(){
                     <p className="Rpage1">Sign up</p>
                     <div className="Rinput-container">
                         <label for='name'>Username </label>
-                        <input id='name' type="text" placeholder='Username' name='username' required onChange={e=>setUsername(e.target.value)}/>
+                        <input id='name' type="text" placeholder='Username' name='username'  onChange={e=>setUsername(e.target.value)} required/>
                     </div>
                     <div className="Rinput-container">
                         <label for='email'>User Email ID</label>
-                        <input id='email' type="email" placeholder='Email' name='email' required onChange={e=>setEmail(e.target.value)}/>
+                        <input id='email' type="email" placeholder='Email' name='email'  onChange={e=>setEmail(e.target.value)} required/>
                     </div>
                     <div className="Rinput-container">
                         <label for ="password">Password</label>
-                    <input id='password' type="password" placeholder='Password' name='password' required onChange={e=>setPassword(e.target.value)}/>
+                    <input id='password' type="password" placeholder='Password' name='password'  onChange={e=>setPassword(e.target.value)} required/>
                     </div>
                     <br />
                     <button type='submit' onClick={handleCick} >Register</button>
                     <br />
-                    <p className='Rpage2'>Have an account? <Link to={'/login'}>Login</Link> </p>
+                    <p className='Rpage2'> <Link to={'/login'}>Already have an account?</Link> </p>
                     
                 </form>
         

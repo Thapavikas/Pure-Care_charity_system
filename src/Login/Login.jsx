@@ -5,7 +5,7 @@ import './Login.css'
 import Swal from 'sweetalert2';
 
 
-export default function Login(){
+function Login(){
 
     const[email,setEmail]=useState('')
     const[password,setPassword]=useState('')
@@ -49,3 +49,5 @@ export default function Login(){
         </div>
     )
 }
+
+export default Login

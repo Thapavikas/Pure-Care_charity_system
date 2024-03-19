@@ -1,4 +1,8 @@
 /* this is login form box */
+.Login_page{
+  height: 100vh;
+  width: 100%;
+}
 .login-box{
     border-radius: 10px;
     position: relative;

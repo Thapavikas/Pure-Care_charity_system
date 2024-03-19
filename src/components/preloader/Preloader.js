@@ -10,7 +10,7 @@ const Preloader = () => {
   return (
     <div className='preloader'>
         <div className='texts-container'>
-            <span>Kindness key</span>
+            <span>Kindness</span>
             <span>Hope Highway</span>
             <span>Giving Garden</span>
         </div>

@@ -6,7 +6,12 @@
     max-width: 400px;
     margin: 0 auto;
   }
-  
+  .container1{
+    text-align: center;
+    background: linear-gradient(#a2d2ff,#219ebc);
+    box-shadow: 5px 10px 5px 5px;
+  }
+
   .Accheading {
     text-align: center;
     color: #333;

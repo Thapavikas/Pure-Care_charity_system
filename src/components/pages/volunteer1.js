@@ -55,17 +55,11 @@ const Volunteer1= () => {
                         id="party"
                         type="datetime-local"
                         name="partydate"
-                        value="2017-06-01T08:30" /> */}
+                        value="2017-06-01T08:30 " /> */}
                     </div>
                     <div class="VDselect1">
-                        <label for="location"></label>
-                        <label for="district" style={{color:'black'}}>Place:</label>
-                        <select id="district" name="district" onChange={e=>{setplace(e.target.value)}} >
-                            <option value="none">None</option>
-                            <option value="MG Road">MG Road</option>
-                            <option value="Tin factory">Tin factory</option>
-                            <option value="K R puram">K R puram</option>
-                        </select> 
+                        <label for="place"> Place</label>
+                        <input type='text' id="place" placeholder='Enter your place' onChange={e=>{setplace(e.target.value)}}></input>
                     </div>
                         <div class='VDaddress1'>
                             <label for="address" style={{color:'black'}}>Address:</label>

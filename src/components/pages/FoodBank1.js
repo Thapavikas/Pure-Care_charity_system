@@ -53,17 +53,8 @@ const FoodBank1 = () => {
                 <input type='number' min='0' placeholder='Enter the quantity' id='Quantity' onChange={e=>{setQuantity(e.target.value)}}/>
             </div>
             <div class="FDselect">
-                <label for="location"></label>
-                <label for="district" style={{color:'black'}}>Place:</label>
-                <select id="district" name="district" onChange={e=>{setplace(e.target.value)}} >
-                    <option value='none'>None</option>
-                    <option value="kormangla">kormangla</option>
-                    <option value="Indranagar">Indranagar</option>
-                     <option value="Old Airport road">Old Airport road</option>
-                    <option value="kalyan Nagar">kalyan Nagar</option>
-                    <option value="JP Nagar">JP Nagar</option>
-                    <option value="Banaswadi">Banaswadi</option>
-                </select> 
+            <label for="place"> Place</label>
+                        <input type='text' id="place" placeholder='Enter your place' onChange={e=>{setplace(e.target.value)}}></input>
             </div>
                 <div class='FDaddress'>
                     <label for="address" style={{color:'black'}}>Address:</label>

@@ -49,14 +49,8 @@ const SocialWelfare1= () => {
                         <br/>
                         <input type='text' placeholder='Enter your skill' id='Scategry' onChange={e=>{setdonate(e.target.value)}}/>
                     <div class="VDselect">
-                        <label for="location"></label>
-                        <label for="district" style={{color:'black'}}>Place:</label>
-                        <select id="district" name="district" onChange={e=>{setplace(e.target.value)}} >
-                            <option value="none">None</option>
-                            <option value="MG Road">MG Road</option>
-                            <option value="Tin factory">Tin factory</option>
-                            <option value="K R puram">K R puram</option>
-                        </select> 
+                    <label for="place"> Place</label>
+                        <input type='text' id="place" placeholder='Enter your place' onChange={e=>{setplace(e.target.value)}}></input>
                     </div>
                         <div class='SWaddress'>
                             <label for="address" style={{color:'black'}}>Address:</label>

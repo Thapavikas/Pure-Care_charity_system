@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pages/SocialWelfare.css'
-import { Link, useNavigat } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const SocialWelfare = () => {
   return (

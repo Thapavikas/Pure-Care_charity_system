@@ -1,5 +1,5 @@
 import React from 'react';
-import axios, { Axios } from 'axios'
+import axios from 'axios'
 import { useState } from 'react';
 import '../pages/volunteer1.css'
 import Swal from 'sweetalert2'

@@ -1,5 +1,5 @@
 import React from 'react';
-import CardBlockItem from './CardBlockItem.js';
+import CardBlockItem from './CardBlockItem.jsx';
 
 import SocialWelfare from '../../img/whatwedo/socialWelfare.jpg';
 import School from '../../img/whatwedo/school.jpg';

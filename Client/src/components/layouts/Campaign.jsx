@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigat } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './../layouts/Campaign.css'
 const Campaign = () => {
   return (

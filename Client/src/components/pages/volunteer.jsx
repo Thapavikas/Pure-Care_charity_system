@@ -3,7 +3,7 @@ import '../pages/volunteer.css'
 import volunteer0 from '../../img/volunteer/volunteer0.jpg';
 import volunteer1 from '../../img/volunteer/volunteer1.jpg';
 import volunteer2 from '../../img/volunteer/volunteer2.jpg';
-import { Link, useNavigat } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const volunteer = () => {

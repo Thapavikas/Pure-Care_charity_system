@@ -4,7 +4,7 @@ import FoodBank0 from '../../img/FoodDonate/p1.jpeg';
 import FoodBank1 from '../../img/FoodDonate/p2.jpeg';
 import FoodBank2 from '../../img/FoodDonate/p3.jpeg';
 import FoodBank3 from '../../img/FoodDonate/delivery.gif';
-import { Link, useNavigat } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const FoodBank = () => {

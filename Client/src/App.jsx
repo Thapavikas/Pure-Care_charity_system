@@ -1,30 +1,30 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, BrowserRouter } from 'react-router-dom';
 
-import Navbar from './components/layouts/Navbar';
-import Footer from './components/layouts/Footer.js';
+import Navbar from '../../Client/src/components/layouts/Navbar.jsx';
+import Footer from '../../Client/src/components/layouts/Footer.jsx';
 
-import Home from './components/pages/Home.js';
-import About from './components/pages/About.js';
-import Message from './components/pages/Message.js';
-import Education from './components/pages/Education';
-import FoodBank from './components/pages/FoodBank.js';
-import FoodBank1 from './components/pages/FoodBank1.js';
-import Education1 from './components/pages/Education1.js';
-import SocialWelfare from './components/pages/SocialWelfare';
-import Gallery from './components/pages/Gallery.js';
-import ContactUs from './components/pages/Contactus.js';
-import Login from './Login/Login.jsx';
-import Register from './Register/Register.js';
-import Volunteer  from './components/pages/volunteer.js';
-import Volunteer1 from './components/pages/volunteer1.js';
-import SocialWelfare1 from './components/pages/SocialWelfare1.js';
-import CampaignModal from './components/layouts/CampaignModal.js';
+import Home from '../../Client/src/components/pages/Home.jsx';
+import About from './components/pages/About.jsx';
+import Message from '../../Client/src/components/pages/Message.jsx';
+import Education from '../../Client/src/components/pages/Education.jsx';
+import FoodBank from '../../Client/src/components/pages/FoodBank.jsx';
+import FoodBank1 from '../../Client/src/components/pages/FoodBank1.jsx';
+import Education1 from '../../Client/src/components/pages/Education1.jsx';
+import SocialWelfare from '../../Client/src/components/pages/SocialWelfare.jsx';
+import Gallery from '../../Client/src/components/pages/Gallery.jsx';
+import ContactUs from './components/pages/Contactus.jsx';
+import Login from '../../Client/src/Login/Login.jsx';
+import Register from '../../Client/src/Register/Register.jsx';
+import Volunteer  from '../../Client/src/components/pages/volunteer.jsx';
+import Volunteer1 from '../../Client/src/components/pages/volunteer1.jsx';
+import SocialWelfare1 from '../../Client/src/components/pages/SocialWelfare1.jsx';
+import CampaignModal from '../../Client/src/components/layouts/CampaignModal.jsx';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import { Routes} from 'react-router-dom';
-import Preloader from './components/preloader/Preloader.js';
+import Preloader from '../../Client/src/components/preloader/Preloader.jsx';
 
 
 

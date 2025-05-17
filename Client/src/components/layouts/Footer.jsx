@@ -57,33 +57,6 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-              <ul class='tag3'>
-              <h5 className='white-text'>Our Team</h5>
-              <li>
-                  <Link
-                    class='ourteam'to='https://www.linkedin.com/in/vikas-thapa-2395b6265/' onClick={() => window.scrollTo(0, 0)}>
-                    Vikas Thapa
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    class='ourteam' to='https://www.linkedin.com/in/balaji-patil-97452b27a/' onClick={() => window.scrollTo(0, 0)}>
-                    Balaji Patil
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    class='ourteam' to='https://www.linkedin.com/in/suresh-kumar-413377265/' onClick={() => window.scrollTo(0, 0)}>
-                    Suresh Kumar
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    class='ourteam' to='https://www.linkedin.com/in/vivek-krishna-parida-13a935298/' onClick={() => window.scrollTo(0, 0)}>
-                    Vivek Krishna Parida
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
